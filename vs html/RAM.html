@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram</title>
+</head>
+<body style="background-color: #2b2b2b;color: white;  ">
+    <header>
+        <center>
+        <h1 style="color: rgb(247, 245, 245);">🎮 Oyun Sistemleri ve Donanım Rehberi</h1>
+        <nav    >
+            <a href="İşlemci.html" style="color: red;">1. işlemci</a> |
+            <a href="Anakart.html"style="color: red;">2. Anakart</a>|
+            <a href="Ekran-Kartı.html"style="color: red;">3. Ekran Kartı</a>| 
+            <a href="RAM.html"style="color: red;">4. RAM</a> |
+            <a href="SSD.html"style="color: red;">5. SSD</a> |         
+            <a href="Güç-Kaynağı.html"style="color: red;">6. Güç Kaynağı</a>| 
+            <a href="Soğutucu.html"style="color: red;">7. Soğutucu</a>| 
+            <a href="Kasa.html"style="color: red;">8. Kasa</a> |
+            <a href="Monitör.html"style="color: red;">9. Monitör</a>| 
+            <a href="Ekipmanlar.html"style="color: red;">10. Ekipmanlar</a>|
+        </nav>
+        </center>   
+    </header>
+    
+    <center > <h1>Ram nedir Ne işer yarar?</h1> </center>
+    
+    <h3>RAM (Random Access Memory - Rastgele Erişimli Bellek), bilgisayarın anlık olarak çalıştığı programların, açık pencerelerin ve oyunların verilerini geçici olarak saklayan yüksek hızlı çalışma hafızasıdır.</h3>
+    <center><img src="./görseller/ram.jpg" alt=""></center>
+    <h1>RAM Ne İşe Yarar?</h1>
+    <ul>
+        <h2>
+            <li>Çalışma Mantığı: Bilgisayarınızda bir program, oyun veya sekme açtığınızda, bu veriler yavaş olan SSD/HDD'den alınır ve çok daha hızlı olan RAM'e yüklenir</li>
+            <li>şlemciye Hız Kazandırır: İşlemci (CPU), ihtiyaç duyduğu verilere milisaniyeler yerine nanosaniyeler seviyesinde ulaşarak takılmadan çalışır</li>
+            <li>Çoklu Görev (Multitasking): Aynı anda arka planda birden fazla programın (tarayıcı, müzik, oyun, Photoshop vb.) kasmadan açık kalabilmesini sağlar</li>
+            <li>Geçici Depolamadır: Bilgisayar kapatıldığında veya elektrik kesildiğinde RAM üzerindeki tüm veriler silinir. Kalıcı veriler SSD/HDD'de saklanır</li>
+        </h2>
+    </ul>
+    <h2>RAM mimarisi</h2>
+    <center><img src="./görseller/ram çalışma.jpg" alt="" width="600"></center>
+    <h3>Görseldeki mimari diyagramında yer alan bileşenleri ve RAM (Random Access Memory - Rastgele Erişimli Bellek) bileşeninin ne işe yaradığını detaylıca açıklayalım</h3>
+    <ul>
+        <h3>
+            <li><h2>1. RAM Yongaları (Gövde)</h2>Ana veri depolama alanıdır. İşlemcinin (CPU) o an kullandığı veriler geçici olarak bu yongalarda saklanır</li>
+            <li><h2>2. SPD EEPROM Yongası</h2>RAM modülünün "kimlik kartı" gibidir. Modülün kapasitesi, çalışma hızı, voltajı ve zamanlamaları (CL değerleri) gibi teknik bilgileri saklar ve anakarta iletir</li>
+            <li><h2>3. PMIC (Power Management IC)</h2>Güç yönetim entegresidir. Özellikle DDR5 belleklerde gücü doğrudan modül üzerinde düzenleyerek daha kararlı, verimli ve stabil bir enerji beslemesi sağlar</li>
+            <li><h2>4. Isı Dağıtıcı (Heat Spreader):</h2>RAM yongalarında oluşan ısıyı emip dışarı yayarak modülün aşırı ısınmasını engeller, yüksek performansta uzun süre çalışmasını ve fiziksel korumasını sağlar</li>
+            <li><h2>5. Kontakt Pinleri ve Konnektör:</h2>Anakart üzerindeki DIMM yuvasına takılan altın kaplama temas noktalarıdır. Verilerin ve gücün anakart ile RAM arasında yüksek hızla iletilmesini sağlar</li>
+            <li><h2>6. PCB (Printed Circuit Board):</h2>Üzerindeki tüm elektronik parçaları birbirine bağlayan ve sinyal yollarını taşıyan çok katmanlı yeşil/siyah devre kartıdır</li>
+            <li><h2>7. Tek Bir RAM Yongasının İç Yapısı (Satır/Sütun ve Bellek Hücresi):</h2>RAM içindeki milyarlarca küçük hücreden oluşur. Her hücre 1 bitlik (0 veya 1) veri saklar. Bir kapasitör ve bir transistörden oluşur. Kapasitör şarj tutarak veriyi saklar, ancak düzenli tazelemeye ihtiyaç duyar</li>
+            <li><h2>8. Veri Akışı: CPU - RAM Etkileşimi:</h2>İşlemcinin anlık erişmesi gereken verileri tutar. SSD/HDD gibi kalıcı depolama birimleri çok yavaş olduğu için, işlemci doğrudan RAM ile yüksek hızda haberleşir</li>
+
+        </h3>
+
+    </ul>
+
+
+</body>
+</html>

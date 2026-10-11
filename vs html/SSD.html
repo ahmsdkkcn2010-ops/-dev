@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSD</title>
+</head>
+<body style="background-color: #2b2b2b;color: white;">
+    <header>
+        <center>
+        <h1 style="color: rgb(247, 245, 245);">🎮 Oyun Sistemleri ve Donanım Rehberi</h1>
+        <nav    >
+            <a href="İşlemci.html" style="color: red;">1. işlemci</a> |
+            <a href="Anakart.html"style="color: red;">2. Anakart</a>|
+            <a href="Ekran-Kartı.html"style="color: red;">3. Ekran Kartı</a>| 
+            <a href="RAM.html"style="color: red;">4. RAM</a> |
+            <a href="SSD.html"style="color: red;">5. SSD</a> |         
+            <a href="Güç-Kaynağı.html"style="color: red;">6. Güç Kaynağı</a>| 
+            <a href="Soğutucu.html"style="color: red;">7. Soğutucu</a>| 
+            <a href="Kasa.html"style="color: red;">8. Kasa</a> |
+            <a href="Monitör.html"style="color: red;">9. Monitör</a>| 
+            <a href="Ekipmanlar.html"style="color: red;">10. Ekipmanlar</a>|
+        </nav>
+        </center>   
+    </header>
+    
+    <center><h1>SSD ne işe yarar ve SSD mimarisi</h1></center>
+    <center>SSD (Solid State Drive - Katı Hal Sürücüsü), verileri kalıcı olarak depolamak için mekanik diskler (HDD) yerine NAND flash bellek teknolojisini kullanan yeni nesil bir depolama aygıtıdır.İçinde dönen metal plakalar, okuma/yazma kafaları veya motorlar bulunmaz. Tamamen elektronik devrelerden ve yongalardan oluşur. Bu yapı sayesinde geleneksel HDD'lere göre kat kat daha hızlıdır, sessiz çalışır, darbelere karşı çok daha dayanıklıdır ve çok daha az güç tüketir</center>
+    <center><img src="./görseller/ssd.jpg" alt=""width="400"></center>
+    <center><h2>SSD Mimarisi</h2></center>
+    <center><img src="./görseller/ssd çalıma.jpg" alt=""width="600"></center>
+    <ul>
+        <h3>
+            <li><h2>1. SSD Kontrolcüsü (The Controller - Beyin)</h2>SSD’nin "merkezi sinir sistemidir". Kendi üzerinde mini bir işlemci barındırır. Bilgisayardan gelen verilerin nereye yazılacağını belirler, okuma isteklerini yönetir ve SSD'nin ömrünü uzatmak için arka planda kritik operasyonlar yürütür</li>
+            <li><h2>NAND Flash Bellek Yongaları (Depolama Alanı)</h2>Verilerin kalıcı olarak saklandığı fiziksel yongalardır. İçerisinde milyonlarca mikro ölçekte hücre barındırır. Bu hücreler elektrik yükünü hapsederek (elektronları tuzağa düşürerek) siz bilgisayarı kapatsanız bile verinin saklanmasını sağlar</li>
+            <li><h2>DRAM Önbellek (Cache - Hafıza)</h2>Tüm SSD'lerde bulunmaz (DRAM-less modeller de vardır). Kontrolcünün verileri nereye kaydettiğini tuttuğu harita gibidir. DRAM içeren SSD'ler, büyük dosya transferlerinde ve rastgele okuma/yazma işlemlerinde çok daha kararlı ve yüksek hızlar sunar</li>
+            <li><h2>Arayüz ve Form Faktörü (Bağlantı Şekli)</h2>SATA (2.5 inç): Klasik HDD'ler ile aynı boyuttadır, hızları ortalama 500-550 MB/s civarındadır.</li><br>
+            M.2 NVMe (PCIe): Sakız paketine benzeyen, doğrudan anakarta takılan ve gigabaytlarca hıza (örn. 3500 MB/s ila 7000+ MB/s) ulaşabilen modern mimaridir.
+
+        </h3>
+    </ul>
+    <h2>Özet</h2>
+    <h3>Yazma Komutu: Bilgisayarınızdan bir dosya kaydetmek istediğinizde komut arayüzden kontrolcüye ulaşır <br>
+
+        Yönetim: Kontrolcü, NAND yongaları üzerinde boş ve en uygun hücreleri seçer <br>   
+
+        Elektron Tuzağı: Elektrik sinyalleriyle hücrelerin içindeki yalıtkan katmanlar doldurulur ve veri kalıcı olarak saklanır <br>
+
+        Okuma Komutu: Dosyayı açmak istediğinizde kontrolcü milisaniyeler içinde doğru adresi bulur ve ekranınıza aktarır. Mekanik parça olmadığı için bu süreç anlık gerçekleşir.</h3>
+</body>
+</html>

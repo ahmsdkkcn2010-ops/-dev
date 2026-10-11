@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekran kartı</title>
+</head>
+<body style="background-color: #2b2b2b;color: white;">
+    <header>
+        <center>
+        <h1 style="color: rgb(247, 245, 245);">🎮 Oyun Sistemleri ve Donanım Rehberi</h1>
+        <nav    >
+            <a href="İşlemci.html" style="color: red;">1. işlemci</a> |
+            <a href="Anakart.html"style="color: red;">2. Anakart</a>|
+            <a href="Ekran-Kartı.html"style="color: red;">3. Ekran Kartı</a>| 
+            <a href="RAM.html"style="color: red;">4. RAM</a> |
+            <a href="SSD.html"style="color: red;">5. SSD</a> |         
+            <a href="Güç-Kaynağı.html"style="color: red;">6. Güç Kaynağı</a>| 
+            <a href="Soğutucu.html"style="color: red;">7. Soğutucu</a>| 
+            <a href="Kasa.html"style="color: red;">8. Kasa</a> |
+            <a href="Monitör.html"style="color: red;">9. Monitör</a>| 
+            <a href="Ekipmanlar.html"style="color: red;">10. Ekipmanlar</a>|
+        </nav>
+        </center>   
+    </header>
+
+    <center><h1>Ekran Kartı (GPU - Graphics Processing Unit) Nedir?</h1></center>
+    <center><img src="./görseller/ekrankartı.jpg" alt="görsel bulunamadı"width="500"></center>
+    <h2>Ekrankartı Nedir?</h2>
+    <h3>Ekran Kartı, bilgisayardaki görsel verileri işleyen ve bunları monitörün anlayabileceği görüntü sinyallerine dönüştüren donanım birimidir. Özellikle üç boyutlu (3D) oyunlar, video düzenleme, yapay zeka hesaplamaları ve render (çizim) işlemlerinde merkezi işlemciden (CPU) bağımsız olarak devasa veri yüklerini paralel bir şekilde işler.</h3>
+    <center><img src="./görseller/ekrankartı çalışma.jpg" alt=""width="500"></center>
+    <h1>Ekran Kartının Temel Bileşenleri ve Görevleri</h2>
+    <h3>
+        <ul>
+            <li><h2>Grafik İşlemci Çipi</h2>Ekran kartının ana beynidir. Binlerce küçük çekirdeğe sahip olup, paralel matematiksel hesaplamaları çok hızlı yapar.</li>
+            <li><h2>Video Belleği</h2>Görüntü işlenirken kullanılan doku, kaplama ve kare (frame) verilerinin geçici olarak saklandığı ultra hızlı bellektir.</li>
+            <li><h2>Bellek Arayüzü</h2>VRAM ile GPU arasındaki veri yolu genişliğidir. Ne kadar genişse, veri o kadar hızlı akar.</li>
+            <li><h2>Soğutma Sistemi</h2>İşlem sırasında çok ısınan GPU ve VRAM çiplerini soğutarak kararlı çalışmayı sağlar.</li>
+            <li><h2>Güç Arayüzü</h2>Güç kaynağından (PSU) gelen elektriği ekran kartına doğrudan iletir.</li>
+            <li><h2>Genişleme Arayüzü</h2>Ekran kartının anakarta takıldığı ve sistemle veri alışverişi yaptığı ana yuvadır.</li>
+            <li><h2>Görüntü Çıkışları</h2>İşlenen görüntü sinyallerini monitöre veya harici ekranlara aktaran portlardır.</li>
+        </ul>
+    </h3>
+    <h1>Ekran Kartı Nasıl Çalışır?</h1>
+    <h3>
+    <ol>
+        <li>Veri Alımı: CPU, işlenecek oyun veya uygulama verilerini (geometri, nesneler, komutlar) PCIe yuvası üzerinden ekran kartına gönderir.</li>
+        <li>Paralel İşleme (GPU Processing): GPU içerisindeki binlerce çekirdek, bu verileri (koordinatlar, renkler, ışıklandırmalar) aynı anda işleyerek piksellere dönüştürür.    </li>
+        <li>VRAM Depolama: İşlenen dokular ve anlık kareler VRAM üzerinde saklanır ve güncellenir.</li>
+        <li>Görüntü Aktarımı: Son hazırlanan kareler, görüntü portları (HDMI/DisplayPort) aracılığıyla monitöre iletilir ve ekrana yansıtılır.</li>
+    </ol>
+    </h3>
+</body>
+</html>
